@@ -1,0 +1,47 @@
+@media all and (max-width: 1000px) {
+
+	.menu-icon {
+    display: none;
+    color: white;
+  }
+
+  .top-wrapper h1{
+  	font-size: 32px;
+  }
+
+  .top-wrapper p{
+  	font-size: 18
+  }
+
+  .btn {
+  padding: 10px 18px;
+  }
+
+  
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+
+  .header-list {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+
+  .top-wrapper h1 {
+  	font-size: 24px;
+  }
+
+  .top-wrapper p{
+  	font-size: 12;
+  	padding: 14px 0;
+  }
+
+  .btn {
+  padding: 6px 10px;
+  }
+  
+}
