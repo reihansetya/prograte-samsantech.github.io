@@ -1,23 +1,23 @@
 @media all and (max-width: 1000px) {
 
-	.menu-icon {
+  .menu-icon {
     display: none;
     color: white;
   }
 
-  .top-wrapper h1{
-  	font-size: 32px;
+  .top-wrapper h1 {
+    font-size: 32px;
   }
 
-  .top-wrapper p{
-  	font-size: 18
+  .top-wrapper p {
+    font-size: 18
   }
 
   .btn {
-  padding: 10px 18px;
+    padding: 10px 18px;
   }
 
-  
+
 }
 
 /* Untuk Smartphone */
@@ -26,22 +26,79 @@
   .header-list {
     display: none;
   }
-  
+
   .menu-icon {
     display: block;
   }
 
   .top-wrapper h1 {
-  	font-size: 24px;
+    font-size: 24px;
   }
 
-  .top-wrapper p{
-  	font-size: 12;
-  	padding: 14px 0;
+  .top-wrapper p {
+    font-size: 12;
+    padding: 14px 0;
   }
 
   .btn {
-  padding: 6px 10px;
+    padding: 6px 10px;
   }
-  
+
+  /* contact */
+  .contact {
+    font-size: 14px;
+  }
+
+  .contact-txt {
+    font-size: 16px;
+  }
+
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    background-color: #e7f3fe;
+    border-left: 4px solid #002347;
+    padding: 8px 8px;
+    color: #002347;
+    width: 80%;
+    margin: 8px 0;
+    text-align: center;
+    align-self: center;
+  }
+
+  .form p {
+    font-size: 0;
+  }
+
+  .col-tgh {
+    flex: 2;
+  }
+
+  #form {
+    width: 265%;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #002347;
+    background-color: #f5f5f5;
+    color: black;
+    outline: none;
+    transition: 0.5s;
+    border-radius: 4px;
+  }
+
+  .textarea {
+    width: 80%;
+    margin-left: 60px;
+    height: 100px;
+    border: 2px solid #002347;
+  }
+
+  .button {
+    margin-left: 58px;
+  }
+
+  /* akhir contact */
 }
